@@ -1,0 +1,27 @@
+.main-content {
+  flex: 1;
+  width: 100%;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #121212; /* dark background */
+  color: #f0f0f0;             /* light text */
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* Optional: style internal elements like headings, paragraphs, etc. */
+.main-content h1,
+.main-content h2,
+.main-content p {
+  color: #ffffff;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1.5rem;
+  }
+}
